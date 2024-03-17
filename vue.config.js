@@ -10,7 +10,7 @@ const {
 const isProd = process.env.NODE_ENV === "production";
 
 module.exports = defineConfig({
-  baseUrl: './',
+  publicPath: './',
   transpileDependencies: true,
   // 合并配置
   configureWebpack: (config) => {
